@@ -26,7 +26,7 @@ public class AES {
 	                             + Character.digit(s.charAt(i+1), 16));
 	    }
 	    return data;
-    }
+	}
 
 	public static String encryptText(String text, String secret_key)
 		throws Exception
